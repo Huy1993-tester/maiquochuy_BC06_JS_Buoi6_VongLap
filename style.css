@@ -1,0 +1,6 @@
+#addThe div:nth-child(odd) {
+    background-color: blue;
+}
+#addThe div:nth-child(even) {
+    background-color: red;
+}

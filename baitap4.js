@@ -25,10 +25,14 @@ function taoMau() {
             document.getElementById("addThe").innerHTML = createDiv;
             document.getElementById("addThe").style.color = "white";
         }
-    } 
+    }
     return;
 }
 
+function btnRest() {
+    countClick = 0;
+    document.getElementById("addThe").innerHTML = "";
+}
 // function btnRest(){
 //     var child = document.getElementById("addThe");
 //     child.parentNode.removeChild(child);

@@ -31,7 +31,7 @@
         <input type="text" name="" id="baiTap2_input2" class="form-control">
       </div>
       <button class="btn btn-success" type="submit" onclick="btnTinhTong(event)">Tính</button>
-    
+
     </div>
     <div class="card-footer text-muted">
       <div id="inTongBaiTap2">Cách tính mẫu (x=2;n=2): 2^0 + 2^1 + 2^2 </div>
@@ -69,7 +69,7 @@
     </div>
     <div class="card-body">
       <button class="btn btn-success" type="submit" onclick="btnCreate(event)">Tạo thẻ</button>
-      <!-- <button class="btn btn-danger" type="reset" onclick="btnRest()">Reset thẻ</button> -->
+      <button class="btn btn-danger" type="reset" onclick="btnRest()">Reset thẻ</button>
     </div>
     <div class="card-footer text-muted">
       <div id="addThe"></div>
@@ -86,7 +86,8 @@
         <label for="">Nhập số</label>
         <input type="text" name="" id="nhapSoBT5" class="form-control">
       </div>
-      <button class="btn btn-success" type="submit" onclick="btnCount(event)">Đếm</button>
+      <button id="nutDem" class="btn btn-success" type="submit" onclick="btnCount(event)">Đếm</button>
+      <button class="btn btn-danger" type="reset" onclick="btnRestBT5()">Reset thẻ</button>
     </div>
     <div class="card-footer text-muted">
       <div id="inListnum">Cách đếm (nhập số là 5): 1 2 3 4 5 </div>

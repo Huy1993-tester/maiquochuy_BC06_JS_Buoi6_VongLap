@@ -7,16 +7,19 @@
  * tìm số nhỏ nhất
  * 
  */
-
+var i = 0;
+var n = 0;
 function tinhSN() {
-    
-    for (var n = 0; n <= 10000; n++) {
-        n  += n;
-        console.log(n);
-    
+    while (n <= 10000) {
+        i++
+        n = n + i;
+
     }
-    
-    return (n);
+    console.log("Khi n lơn hơn 10000 là " + n);
+    console.log("Số nguyên nhỏ nhất là = " + i);
+    return (n);  
 }
-console.log(tinhSN());
+console.log(tinhSN())
+
+
 
